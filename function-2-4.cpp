@@ -40,7 +40,7 @@ int sum_min_max(int integers[], int length)
 {
     if (length<=0)
     {
-        return -1
+        return -1;
     }
     int result =array_max(integers,length)+array_min(integers,length);
     return result;
