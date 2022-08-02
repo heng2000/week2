@@ -3,9 +3,9 @@ using namespace std;
 extern int binary_to_int(int binary_digits[], int number_of_digits);
 int main ()
 {
-    int array[6]={1,0,0,1,1,1};
+    int array[7]={1,0,0,1,0,1,1};
     int result =0;
-    result =binary_to_int(array,6);
+    result =binary_to_int(array,7);
     cout<<result<<endl;
     return 0;
 }

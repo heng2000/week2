@@ -43,6 +43,6 @@ int sum_min_max(int integers[], int length)
         return -1
     }
     int result =array_max(integers,length)+array_min(integers,length);
-    return 0;
+    return result;
 
 }
