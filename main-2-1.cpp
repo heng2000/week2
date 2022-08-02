@@ -1,7 +1,7 @@
 #include<iostream>
 #include<string>
 using namespace std;
-extern print_binary_str(std::string decimal_number);
+extern int print_binary_str(std::string decimal_number);
 int main ()
 {
     string decimal_number;

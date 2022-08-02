@@ -16,4 +16,5 @@ void count_digits(int array[4][4])
         cout<<q<<":"<<count_array[q]<<";";
 
     }
+    cout<<endl;
 }
