@@ -4,9 +4,9 @@ extern int sum_if_palindrome(int integers[], int length);
 
 int main ()
 {
-    int array[3]={1,0,1};
+    int array[5]={1,2,0,2,1};
     int result  =0;
-    result =sum_if_palindrome(array,3);
+    result =sum_if_palindrome(array,5);
     cout<<result<<endl;
     return 0;
 }

@@ -10,7 +10,11 @@ void print_scaled(int array[3][3],int scale)
         {
             array[i][j] =array[i][j] *scale;
             cout<<array[i][j];
-            cout<<" ";
+            if (j!=2)
+            {
+                cout<<" ";
+            }
+
         }
         cout<<endl;
     }

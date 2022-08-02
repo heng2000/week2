@@ -12,7 +12,11 @@ void print_summed(int array1[3][3],int array2[3][3])
         {
             array[i][j]=array1[i][j]+array2[i][j];
             cout<<array[i][j];
-            cout<<" ";
+            if (j!=2)
+            {
+                cout<<" ";
+            }
+            
         }
         cout<<endl;
     }
